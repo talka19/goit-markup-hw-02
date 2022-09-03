@@ -8,13 +8,15 @@
 /* чорний #000000 */
 /* вторичний колір контакта rgba(255, 255, 255, 0.6) */
 /* колір фону  #F5F5F5 */
+
 :root {
-  --praimary-text-color:  #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196F3
+  --primary-text-color: #212121;
+  --fone-color: #F5F5F5;
+
 }
 
 body {
-background-color: green;
-color: #757575;
+  background-color: var(--fone-color);
+  color: var(--primary-text-color);
 }
+
