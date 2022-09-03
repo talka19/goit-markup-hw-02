@@ -11,12 +11,45 @@
 
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #757575;
   --fone-color: #F5F5F5;
+  --accent-color: #2196F3;
 
 }
 
 body {
   background-color: var(--fone-color);
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
+/* logo */
+
+.web {
+color: var(--accent-color);
+}
+
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.site-nav .list {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
+}
+
+.site-nav .list:hover,
+.site-nav .list:focus {
+color: var(--accent-color);
+}
