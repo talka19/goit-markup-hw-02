@@ -57,15 +57,18 @@ color: var(--accent-color);
   text-decoration: none;
 }
 
+.site-nav .link:visited {
+  color: var(--primary-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .site-nav, .contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.site-nav .link:visited {
-  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
@@ -105,6 +108,9 @@ text-transform: uppercase;
   }
 
   /* sections */
+  .hidden {
+    display: none;
+  }
   
   .section-benefits .title {
     font-weight: 700;
@@ -135,9 +141,12 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
+   
   }
 
+  .section-team .list-title {
+     text-align: center;
+  }
   /* footer */
 
   footer {
